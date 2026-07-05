@@ -82,5 +82,17 @@ html,body{
 .taskBox{
     display: flex;
 }
-
+@media(max-width:750px){
+    *{
+        font-size: 15px;
+    }
+}
+@media(max-width:500px){
+    *{
+        font-size: 8px;
+    }
+    .add input{
+        width:50%;
+    }
+}
 
